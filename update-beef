@@ -9,7 +9,7 @@ IFS=$'\n\t'
 
 info() { echo -e "\\033[1;36m[INFO]\\033[0m  $*"; }
 
-info 'Updating BeEF from GitHub repository...'
+info 'Updating skyhighsundae Web Browser Hacker from GitHub repository...'
 git pull
 
 info 'Updating dependencies...'
