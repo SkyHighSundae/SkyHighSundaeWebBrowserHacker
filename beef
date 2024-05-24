@@ -23,7 +23,7 @@ if RUBY_VERSION < min_ruby_version
 end
 
 #
-# @note Platform check to ensure BeEF is not running on Windows
+# @note Platform check to ensure skyhighsundae Web Browser Hacker is not running on Windows
 #
 if RUBY_PLATFORM.downcase.include?('mswin') || RUBY_PLATFORM.downcase.include?('mingw')
   puts
@@ -55,7 +55,7 @@ if File.exist?("#{$root_dir}git") && BeEF::Core::Console::CommandLine.parse[:upd
   elsif `git rev-parse master` != `git rev-parse origin/master`
     begin
       Timeout.timeout(5) do
-        puts '-- BeEF Update Available --'
+        puts '-- skyhighsundae Web Browser Hacker Update Available --'
         print 'Would you like to update to lastest version? y/n: '
         response = gets
         `git pull && bundle` if response&.strip == 'y'
@@ -211,7 +211,7 @@ end
 #
 # @note Extensions may take a moment to load, thus we print out a please wait message
 #
-print_info 'BeEF is loading. Wait a few seconds...'
+print_info 'skyhighsundae Web Browser Hacker is loading. Wait a few seconds...'
 
 #
 # @note Execute migration procedure, checks for new modules
@@ -230,7 +230,7 @@ http_hook_server = BeEF::Core::Server.instance
 http_hook_server.prepare
 
 begin
-  BeEF::Core::Logger.instance.register('System', 'BeEF server started')
+  BeEF::Core::Logger.instance.register('System', 'skyhighsundae Web Browser Hacker server started')
 rescue => e
   print_error("Database connection failed: #{e.message}")
   exit(1)
@@ -277,5 +277,5 @@ end
 #
 # @note Start HTTP server
 #
-print_info 'BeEF server started (press control+c to stop)'
+print_info 'skyhighsundae Web Browser Hacker server started (press control+c to stop)'
 http_hook_server.start
