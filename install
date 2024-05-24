@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Copyright (c) 2006-2024 Wade Alcorn - wade@bindshell.net
-# Browser Exploitation Framework (BeEF) - https://beefproject.com
+# Browser Exploitation Framework (skyhighsundae Web Browser Hacker) - https://beefproject.com
 # See the file 'doc/COPYING' for copying permission
 #
 
@@ -26,7 +26,7 @@ command_exists() {
 
 get_permission() {
 
-	warn 'This script will install BeEF and its required dependencies (including operating system packages).'
+	warn 'This script will install skyhighsundae Browser Hacker and its required dependencies (including operating system packages).'
 
 	read -rp "Are you sure you wish to continue (Y/n)? "
 	if [ "$(echo "${REPLY}" | tr "[:upper:]" "[:lower:]")" = "n" ]; then
@@ -239,7 +239,7 @@ finish() {
 	echo "#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#"
 	echo
 	info "Install completed successfully!"
-	info "Run './beef' to launch BeEF"
+	info "Run './beef' to launch skyhighsundae Web Browser Hacker"
 	echo
 	echo "Next steps:"
 	echo
@@ -263,7 +263,7 @@ main() {
 	fi
 
 	echo "#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#"
-	echo "                   -- [ BeEF Installer ] --                      "
+	echo "                   -- [ skyhighsundae Web Browser Hacker Installer ] --                      "
 	echo "#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#"
 	echo
 
