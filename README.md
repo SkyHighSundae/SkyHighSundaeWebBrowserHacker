@@ -6,10 +6,10 @@
 
 ===============================================================================
 
-What is BeEF?
+What is skyhighsundae Web Browser Hacker?
 -------------
 
-__BeEF__ is short for __The Browser Exploitation Framework__. It is a penetration testing tool that focuses on the web browser.
+__skyhighsundae Web Browser Hacker__ is  __The Browser Exploitation Framework__. It is a penetration testing tool that focuses on the web browser.
 
 Amid growing concerns about web-borne attacks against clients, including mobile clients, BeEF allows the professional penetration tester to assess the actual security posture of a target environment by using client-side attack vectors. Unlike other security frameworks, BeEF looks past the hardened network perimeter and client system, and examines exploitability within the context of the one open door: the web browser. BeEF will hook one or more web browsers and use them as beachheads for launching directed command modules and further attacks against the system from within the browser context.
 
@@ -17,7 +17,7 @@ Amid growing concerns about web-borne attacks against clients, including mobile 
 Get Involved
 ------------
 
-You can get in touch with the BeEF team. Just check out the following:
+You can get in touch with the skyhighsundae Web Browser Hacker team. Just check out the following:
 
 
 __Please, send us pull requests!__
@@ -55,7 +55,7 @@ $ ./install
 
 For full installation details, please refer to [INSTALL.txt](https://github.com/beefproject/beef/blob/master/INSTALL.txt) or the [Installation](https://github.com/beefproject/beef/wiki/Installation) page on the wiki.
 
-Upon successful installation, be sure to read the [Configuration](https://github.com/beefproject/beef/wiki/Configuration) page on the wiki for important details on configuring and securing BeEF.
+Upon successful installation, be sure to read the [Configuration](https://github.com/beefproject/beef/wiki/Configuration) page on the wiki for important details on configuring and securing skyhighsundae Web Browser Hacker.
 
 
 Documentation
